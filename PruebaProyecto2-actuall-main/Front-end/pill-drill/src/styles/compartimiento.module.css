@@ -1,32 +1,44 @@
 .container{
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1fr;
-  gap: 10px; /* Ajusta el espacio entre los botones */
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio horizontalmente */
   align-items: center;
-  justify-items: center;
+  padding: 70px; 
 }
 
+.title{
+  display: grid;
+  place-content: center;
+  align-items: center;
+  font-family: Lexend,sans-serif;;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: white;
+ 
+}
 
-
+.containerimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
 
 .botonComp1{
   background-image: url('/Image/btn1.png');
   background-size: cover;
+  background-repeat: no-repeat;
   border: none;
-  color: white;
   width:220px;
   height:200px;
   
 
 }
 .botonComp2{
-  background-image: url('/Image/btn2.png');
+  background-image: url('/Image/Component 2.png');
   background-size: cover;
   padding: 10px 20px;
   border: none;
-  color: white;
   width:220px;
   height:200px;
 }.botonComp3{
@@ -34,7 +46,6 @@
   background-size: cover;
   padding: 10px 20px;
   border: none;
-  color: white;
   width:220px;
   height:200px;
 }.botonComp4{
@@ -42,7 +53,6 @@
   background-size: cover;
   padding: 10px 20px;
   border: none;
-  color: white;
   width:220px;
   height:200px;
 }
