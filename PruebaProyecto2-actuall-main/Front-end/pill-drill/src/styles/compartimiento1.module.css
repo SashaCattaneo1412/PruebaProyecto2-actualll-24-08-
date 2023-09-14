@@ -1,0 +1,32 @@
+
+.formcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 10px; /* Espacio entre las columnas */
+    justify-content: space-around;
+  }
+
+  .formgroup {
+    display: flex;
+    flex-direction: column; /* Labels debajo de los elementos */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+  }
+  
+.label{
+gap: 10px;
+margin-bottom: 30px; /* Espacio entre las etiquetas */
+font-family: Lexend, sans-serif;
+font-size: 27px;
+font-weight: 550;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+
+.img {
+    position: absolute;
+    top: 0.5; /* Alinea la imagen en la parte superior de la pantalla */
+    right: 0; /* Alinea la imagen a la derecha de la pantalla */
+    max-width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+  }

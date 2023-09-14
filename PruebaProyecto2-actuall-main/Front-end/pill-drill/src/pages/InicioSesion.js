@@ -3,18 +3,20 @@ import Layout from '../components/Layout'
  import Link from 'next/link';
  import PhotoCarousel from '../components/PhotoCarousel.js';
  import style from '../styles/SignUp.module.css';
+ import Image from 'next/image';
 
  const InicioSesion = () => {
    return (
     <div>
- 
+        
      <PhotoCarousel />
-
        
    
         <form>
-
          <div className={style.flexbox}>
+         <div  className={style.img}>
+        <Image width={400} height={300} src="/Image/mayores1.jpg" alt="Imagen comp1" /> 
+        </div>
           <h1 className={style.title}>Iniciar sesión</h1>
 
           <div className={style.contenedorflotante}>
