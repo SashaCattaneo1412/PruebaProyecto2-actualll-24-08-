@@ -26,33 +26,45 @@
 
 .botonComp1{
   background-image: url('/Image/btn1.png');
+  display: inline-block;
+  padding: 10px 20px;
   background-size: cover;
-  background-repeat: no-repeat;
+  padding: 10px 20px;
   border: none;
-  width:220px;
-  height:200px;
-  
-
+  width:210px;
+  height:230px;
+   
 }
+
 .botonComp2{
   background-image: url('/Image/Component 2.png');
+  display: inline-block;
+  padding: 10px 20px;
   background-size: cover;
   padding: 10px 20px;
   border: none;
-  width:220px;
-  height:200px;
-}.botonComp3{
+  width:210px;
+  height:230px;
+}
+
+.botonComp3{
   background-image: url('/Image/btn3.png');
+  display: inline-block;
+  padding: 10px 20px;
   background-size: cover;
   padding: 10px 20px;
   border: none;
-  width:220px;
-  height:200px;
-}.botonComp4{
+  width:210px;
+  height:230px;
+}
+
+.botonComp4{
   background-image: url('/Image/btn4.png');
+  display: inline-block;
+  padding: 10px 20px;
   background-size: cover;
   padding: 10px 20px;
   border: none;
-  width:220px;
-  height:200px;
+  width:210px;
+  height:230px;
 }

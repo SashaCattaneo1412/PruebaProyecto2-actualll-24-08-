@@ -3,11 +3,11 @@ import CenteredContainer from '../components/CenteredContainer';
 import style from '../styles/compartimiento1.module.css';
 import Image from 'next/image'
 import Link from 'next/link';
-const compartimiento1 = () => {
+const compartimiento2 = () => {
   return (
     <div>
       <div  className={style.img}>
-      <Image width={400} height={750} src="/Image/compartimiento1.png" alt="Imagen comp1" /> 
+      <Image width={400} height={750} src="/Image/compartimiento2.png" alt="Imagen comp1" /> 
       </div>
       <CenteredContainer> 
       <form className="form-container">
@@ -46,4 +46,4 @@ const compartimiento1 = () => {
   )
 }
 
-export default compartimiento1
+export default compartimiento2

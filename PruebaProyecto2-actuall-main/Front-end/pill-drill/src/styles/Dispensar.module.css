@@ -14,3 +14,9 @@
     border: none;
 
 }
+.contenidoEncima{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Lexend, sans-serif;
+}

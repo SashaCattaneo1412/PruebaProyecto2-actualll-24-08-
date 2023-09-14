@@ -11,8 +11,10 @@ function DispensarPastilla() {
       width={350}
       height={350}
      />
-       <button text="dispensar" className={style.dispensar} onClick={() => turnOn()} /> <br />
-        
+      <button className={style.dispensar} onClick={() => turnOn()}>
+        <div className={style.contenidoEncima}>DISPENSAR PASTILLA</div>
+      </button>
+              
     </div>
   )
 }

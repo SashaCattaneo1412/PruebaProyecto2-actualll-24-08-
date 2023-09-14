@@ -14,9 +14,7 @@ import Layout from '../components/Layout'
    
         <form>
          <div className={style.flexbox}>
-         <div  className={style.img}>
-        <Image width={400} height={300} src="/Image/mayores1.jpg" alt="Imagen comp1" /> 
-        </div>
+         
           <h1 className={style.title}>Iniciar sesión</h1>
 
           <div className={style.contenedorflotante}>
@@ -28,7 +26,6 @@ import Layout from '../components/Layout'
             <input type="password" className="form-control" id="floatingPassword" placeholder=" Contraseña" />
             </div>
          
-
      
 
           <div className={style.seguimiento}>
@@ -46,7 +43,13 @@ import Layout from '../components/Layout'
             <Link href="/Registrarse">  Crea cuenta nueva</Link>
           </div>
           </div>
+          
 
+          </div>
+          <div className={style.IR}>
+          <Link href="/compartimiento">
+              <div className={style.labelIR}>IR</div>
+          </Link>
           </div>
          </form>
        

@@ -9,15 +9,47 @@ function compartimiento() {
     <h1 className={style.title}>Seleccione el compartimiento</h1>
     <div className={style.container}>
     <div className={style.containerimg}>
-        <button className={style.botonComp1}>
-        <Link href="/InicioSesion"/> 
-        </button> <br />
-        <button text="compartimiento2" className={style.botonComp2} onClick={() => turnOn()} /> <br />
+        <div className={style.botonComp1}>
+        <Link href="/compartimiento1">
+       
+          <img
+            src='/Image/btn1.png' // Reemplaza con la ruta correcta de tu imagen
+            alt="Botón"
+            className="boton-imagen"
+          />
+       
+      </Link>
+        </div> <br />
+        <div className={style.botonComp2}>
+        <Link href="/compartimiento2">
+        <img
+            src='/Image/btn2.png' // Reemplaza con la ruta correcta de tu imagen
+            alt="Botón"
+            className="boton-imagen"
+          /> 
+       </Link>
+        </div> <br />
     </div>
 
     <div className={style.containerimg}>
-        <button text="compartmeinto3" className={style.botonComp3} onClick={() => turnOn()} /> <br />
-        <button text="compartmeinto4" className={style.botonComp4} onClick={() => turnOn()} /> <br />
+    <div className={style.botonComp3}>
+        <Link href="/compartimiento3">
+        <img
+            src='/Image/btn3.png' // Reemplaza con la ruta correcta de tu imagen
+            alt="Botón"
+            className="boton-imagen"
+          /> 
+       </Link> 
+     </div> <br />
+     <div className={style.botonComp4}>
+     <Link href="/compartimiento3">
+        <img
+            src='/Image/btn4.png' // Reemplaza con la ruta correcta de tu imagen
+            alt="Botón"
+            className="boton-imagen"
+          /> 
+       </Link> 
+        </div> <br />
     </div>
 
     </div>

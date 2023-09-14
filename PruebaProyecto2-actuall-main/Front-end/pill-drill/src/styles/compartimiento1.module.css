@@ -2,7 +2,7 @@
 .formcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Dos columnas */
-    gap: 10px; /* Espacio entre las columnas */
+    gap: 40px; /* Espacio entre las columnas */
     justify-content: space-around;
   }
 
@@ -13,7 +13,8 @@
   }
   
 .label{
-gap: 10px;
+gap: 10px 10px;
+padding: 5px, ;
 margin-bottom: 30px; /* Espacio entre las etiquetas */
 font-family: Lexend, sans-serif;
 font-size: 27px;
@@ -22,6 +23,34 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 color: white;
+
+}
+.labelguardar{
+    color: var(--negro);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Lexend', sans-serif;
+    align-items: center;
+    display: flex;
+    align-items: center; /* Centrar verticalmente el contenido */
+    justify-content: center; 
+    padding: 10px 20px
+
+}
+.guardar
+{
+ 
+ position: absolute;
+  border-right: 5px;
+  right: 10px;
+  width: 120px;
+  height: 40px;
+  background: rgba(230, 221, 214, 1);
+  border: none; /* Sin borde */
+  border-radius: 10px;
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiar cursor al pasar el ratón */
+
 }
 
 .img {
@@ -30,3 +59,11 @@ color: white;
     right: 0; /* Alinea la imagen a la derecha de la pantalla */
     max-width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
   }
+
+  .formgroup input{
+    width: 325px;
+    height: 69px;
+    border-radius: 15px;
+    color: aqua;
+    border: none;
+   }

@@ -43,16 +43,18 @@ import Layout from '../components/Layout'
           </div>
 
           </div>
-
-         
           <div className={style.labels}>
-          <button text="IR" className={style.IR} onClick={() => turnOn()} /> <br />
-         
+  
+          <div className={style.IR}>
+         <Link href="/compartimiento">
+             <div className={style.labelIR}>IR</div>
+         </Link>
+         </div>
             <label className={style.cuenta}>
             ¿Ya tienes cuenta? 
             </label>
             <Link href="/InicioSesion"> Iniciar sesion </Link>
-          
+            
            </div>
           </form>
     
